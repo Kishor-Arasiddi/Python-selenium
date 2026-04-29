@@ -2,7 +2,7 @@
 
 A comprehensive Selenium WebDriver automation framework in **Python** covering a wide range of browser automation techniques — from basic interactions to advanced patterns like data-driven testing, headless execution, and synchronization strategies.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── .idea/                        # PyCharm / IntelliJ project configuration
@@ -25,7 +25,7 @@ A comprehensive Selenium WebDriver automation framework in **Python** covering a
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ A comprehensive Selenium WebDriver automation framework in **Python** covering a
    python webdriver_programs/your_script.py
    ```
 
-## 📦 Module Overview
+## Module Overview
 
 ### `webdriver_programs`
 Core WebDriver setup — launching browsers, navigating URLs, locating elements, and performing basic interactions like `click()` and `send_keys()`.
@@ -111,7 +111,7 @@ XPath expressions in Python Selenium — absolute vs relative XPath, text nodes,
 ### `Datadriven_Testing`
 Parameterizing tests with data from external sources such as Excel (`openpyxl`) or CSV files, often combined with `pytest` parametrize.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Selenium WebDriver** — browser automation
 - **Python 3** — primary language
@@ -120,13 +120,9 @@ Parameterizing tests with data from external sources such as Excel (`openpyxl`) 
 - **webdriver-manager** — automatic driver management
 - **ChromeDriver / GeckoDriver** — browser drivers
 
-## 📌 Tips
+## Tips
 
 - Always match your ChromeDriver version to your installed Chrome browser version.
 - Prefer `WebDriverWait` + `expected_conditions` over `time.sleep()` for stable tests.
 - Use headless mode for running tests in CI/CD environments (GitHub Actions, Jenkins, etc.).
 - Store locators separately (Page Object Model) for larger projects.
-
-## 📄 License
-
-This project is intended for educational and practice purposes.
