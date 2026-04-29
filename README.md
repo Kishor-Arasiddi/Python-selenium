@@ -58,7 +58,3 @@ cd actionchain_programs
 python <script_name>.py
 ```
 
-## Author
-
-Kishor Arasiddi
-
