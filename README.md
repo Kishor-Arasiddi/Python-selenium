@@ -1,4 +1,4 @@
-# Selenium Automation Framework (Python)
+# Python Selenium Automation
 
 A comprehensive Selenium WebDriver automation framework in **Python** covering a wide range of browser automation techniques — from basic interactions to advanced patterns like data-driven testing, headless execution, and synchronization strategies.
 
